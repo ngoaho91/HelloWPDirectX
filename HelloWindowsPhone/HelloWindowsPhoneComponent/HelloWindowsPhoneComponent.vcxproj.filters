@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Game</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Game</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Direct3DContentProvider.cpp" />
+    <ClCompile Include="HelloWindowsPhoneComponent.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Cube.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHelper.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Direct3DContentProvider.h" />
+    <ClInclude Include="HelloWindowsPhoneComponent.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PlatformHelpers.h" />
+    <ClInclude Include="Cube.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="dds.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXHelpers.h" />
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHelper.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bricks.dds">
+      <Filter>Game</Filter>
+    </Image>
+    <Image Include="Wood.dds">
+      <Filter>Game</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{d524a344-28da-4d7a-90a9-4c65127e0b59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
